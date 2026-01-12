@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Be Your Own - ร้านกาแฟสไตล์มินิมอล บรรยากาศอบอุ่น เสิร์ฟกาแฟคุณภาพพรีเมียม">
+    <title>Be Your Own | Coffee & Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Kanit:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Be Your Own</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">หน้าแรก</a></li>
+                <li><a href="#about" class="nav-link">เกี่ยวกับเรา</a></li>
+                <li><a href="#menu" class="nav-link">เมนู</a></li>
+                <li><a href="#gallery" class="nav-link">แกลเลอรี่</a></li>
+                <li><a href="#contact" class="nav-link">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Welcome to</span>
+            <h1 class="hero-title">Be Your Own</h1>
+            <p class="hero-description">กาแฟหนึ่งแก้ว เวลาส่วนตัวของคุณ<br>สัมผัสประสบการณ์กาแฟพิเศษในบรรยากาศอบอุ่น</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">ดูเมนู</a>
+                <a href="#contact" class="btn btn-secondary">ติดต่อเรา</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>เลื่อนลง</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="images/latte-art.png" alt="Barista making latte art">
+                    <div class="image-accent"></div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2 class="section-title">เกี่ยวกับเรา</h2>
+                    <p class="about-text">
+                        Be Your Own เกิดจากความรักในกาแฟและความเชื่อว่าทุกคนสมควรได้มีพื้นที่ส่วนตัว 
+                        เราคัดสรรเมล็ดกาแฟคุณภาพเยี่ยมจากทั่วโลก คั่วด้วยความพิถีพิถัน 
+                        และชงด้วยหัวใจของบาริสต้าผู้เชี่ยวชาญ
+                    </p>
+                    <p class="about-text">
+                        ทุกแก้วที่เสิร์ฟ คือการบอกเล่าเรื่องราว คือการส่งมอบความสุข 
+                        และคือการเชื้อเชิญให้คุณค้นพบตัวตนที่แท้จริง
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-number">100%</span>
+                            <span class="feature-text">เมล็ดกาแฟ Arabica</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-number">5+</span>
+                            <span class="feature-text">ปีประสบการณ์</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-number">1000+</span>
+                            <span class="feature-text">ลูกค้าที่พอใจ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Our Menu</span>
+                <h2 class="section-title">เมนูยอดนิยม</h2>
+                <p class="section-description">คัดสรรเมนูที่ดีที่สุดสำหรับคุณ</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-icon">☕</div>
+                    <h3 class="menu-name">Signature Latte</h3>
+                    <p class="menu-desc">เอสเพรสโซ่เข้มข้น ผสมนมสดนุ่มละมุน พร้อมลาเต้อาร์ทสวยงาม</p>
+                    <span class="menu-price">฿85</span>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="menu-icon">🍵</div>
+                    <h3 class="menu-name">Matcha Latte</h3>
+                    <p class="menu-desc">ชาเขียวมัทฉะแท้จากญี่ปุ่น ผสมนมสดหอมมัน</p>
+                    <span class="menu-price">฿95</span>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="menu-icon">🥐</div>
+                    <h3 class="menu-name">Croissant</h3>
+                    <p class="menu-desc">ครัวซองต์อบสดใหม่ทุกวัน กรอบนอกนุ่มใน หอมเนย</p>
+                    <span class="menu-price">฿65</span>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="menu-icon">🍰</div>
+                    <h3 class="menu-name">Basque Cheesecake</h3>
+                    <p class="menu-desc">ชีสเค้กสไตล์บาสก์ หน้าไหม้หอมกลิ่นคาราเมล เนื้อนุ่มละลาย</p>
+                    <span class="menu-price">฿120</span>
+                </div>
+            </div>
+            <div class="menu-cta" data-aos="fade-up">
+                <a href="#" class="btn btn-outline">ดูเมนูทั้งหมด</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Gallery</span>
+                <h2 class="section-title">บรรยากาศร้าน</h2>
+                <p class="section-description">สัมผัสความอบอุ่นผ่านภาพถ่าย</p>
+            </div>
+            <div class="gallery-grid" data-aos="fade-up">
+                <div class="gallery-item gallery-item-large">
+                    <img src="images/hero.png" alt="Coffee shop interior">
+                    <div class="gallery-overlay">
+                        <span>บรรยากาศภายในร้าน</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/coffee-beans.png" alt="Coffee beans">
+                    <div class="gallery-overlay">
+                        <span>เมล็ดกาแฟคัดพิเศษ</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/latte-art.png" alt="Latte art">
+                    <div class="gallery-overlay">
+                        <span>ศิลปะลาเต้</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-content" data-aos="fade-up">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    บรรยากาศร้านดีมาก เงียบสงบ เหมาะกับการทำงานหรือนั่งชิล 
+                    กาแฟอร่อยทุกแก้ว บาริสต้าใจดี จะกลับมาอีกแน่นอน!
+                </p>
+                <div class="testimonial-author">
+                    <span class="author-name">คุณภัทร</span>
+                    <span class="author-title">ลูกค้าประจำ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-subtitle">Contact Us</span>
+                    <h2 class="section-title">ติดต่อเรา</h2>
+                    <p class="contact-text">
+                        เราพร้อมต้อนรับคุณทุกวัน มาเป็นส่วนหนึ่งของครอบครัว Be Your Own
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-content">
+                                <h4>ที่อยู่</h4>
+                                <p>123 ซอยกาแฟ ถนนสุขุมวิท<br>กรุงเทพมหานคร 10110</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-content">
+                                <h4>โทรศัพท์</h4>
+                                <p>02-123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div class="contact-content">
+                                <h4>เวลาเปิดทำการ</h4>
+                                <p>ทุกวัน 08:00 - 20:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Line">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 5.82 2 10.5c0 3.69 2.87 6.78 6.75 7.72.26.06.62.17.71.4.08.2.05.52.03.72l-.12.69c-.03.2-.16.78.68.43.84-.36 4.54-2.67 6.2-4.57C18.14 13.73 22 11.37 22 10.5 22 5.82 17.52 2 12 2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="ชื่อของคุณ" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="อีเมล" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="เบอร์โทรศัพท์">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="ข้อความ" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">ส่งข้อความ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">Be Your Own</span>
+                    <p>กาแฟหนึ่งแก้ว เวลาส่วนตัวของคุณ</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">หน้าแรก</a>
+                    <a href="#about">เกี่ยวกับเรา</a>
+                    <a href="#menu">เมนู</a>
+                    <a href="#contact">ติดต่อ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Be Your Own Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
